@@ -1,0 +1,46 @@
+# Node modules directory
+node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Build directory
+dist
+
+# Environment variables
+.env
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor specific files
+.vscode
+.idea
+*.sublime-project
+*.sublime-workspace
+
+# Dependency directories for front-end frameworks
+# Uncomment if you have front-end dependencies
+# bower_components
+# jspm_packages
+
+# Docker ignore file itself
+.dockerignore
+
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# Docker files
+Dockerfile
+docker-compose.yml
+
+# Optional: Exclude test files if not needed in the Docker image
+test
+*.spec.ts
+*.e2e-spec.ts
